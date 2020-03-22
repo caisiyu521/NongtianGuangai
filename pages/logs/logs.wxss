@@ -1,0 +1,104 @@
+/*配置控件的显示样式*/
+
+.column_Section{
+    margin-top: 220px;
+  display: flex;
+  flex-direction: column;   /* 纵向 排列*/
+}
+
+.row_Section{
+  display: flex;
+  flex-direction: row;   /* 纵向 排列*/
+}
+
+/* 这个是 显示值的区域 */
+.Value_Container{
+    display: flex;
+    flex-direction: row;  /*横向*/
+    margin-left: 20px;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+.text_style{
+    font-size: 40rpx;/*该属性设置元素的字体大小*/
+}
+
+.temp_logo{
+    width: 40px;
+    height: 40px;
+}
+
+.process{
+    margin-left: 10px;
+    width: 250px;
+}
+.humd-logo {
+    width: 40px;
+    height: 40px;
+}
+
+.humd-motto {
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.led-logo {
+    width: 128px;
+    height: 128px;
+    margin-top: 10px;
+}
+
+.sun-logo {
+    width: 64px;
+    height: 64px;
+    margin-top: 30px;
+}
+
+.text_align_center {
+  display: flex;
+  height: 300px;
+  justify-content: center;  
+}
+
+.led-container {
+    display: flex;
+    margin-top: 10px;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin-top: 80px;
+}
+
+.bottom-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;  /*居中*/
+}
+
+.imagesize{
+    display:flex;              
+    justify-content: center;        
+}
+
+.imagesize_image { 
+    width: 420px;
+    height:400rpx;
+    margin-bottom: 10px
+}
+
+
+
+
+
+
+
+
+
+
+

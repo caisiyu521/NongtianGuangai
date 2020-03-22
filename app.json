@@ -1,0 +1,34 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/logs/logs"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "Tencent",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "color": "#707070",
+        "selectedColor": "#1B82D1",
+        "borderStyle": "white",
+        "backgroundColor": "#fff",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "iconPath": "pages/images/wind.png",
+                "selectedIconPath": "pages/images/wind.png",
+                "text": "管理"
+            },
+            {
+                "pagePath": "pages/logs/logs",
+                "iconPath": "pages/images/me.png",
+                "selectedIconPath": "pages/images/me.png",
+                "text": "我"
+            }
+        ]
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,36 @@
+<view   class="column_Section">
+
+    <text   class="Top_text_style">实时监测:</text>
+
+    <canvas
+        style="width: 380px; height: 220px;"
+        canvas-id="yueEle"
+        binderror="canvasIdErrorCallback"
+    ></canvas>
+
+    <view   class="Value_Container">
+        <text   class="text_style">温度：</text>
+        <image  src="{{value.Templogo}}"    class="temp_logo"></image>
+        <progress   percent="{{value.TempValue}}" stroke-width="26" active            activeColor="green" border-radius = "10" class="process"> {{value.TempValue}}℃
+        </progress>
+    </view>
+
+    <view   class="Value_Container">
+        <text   class="text_style">湿度：</text>
+        <image  src="{{value.Humdlogo}}"    class="humd-logo"></image>
+        <progress   percent="{{value.HumdValue}}" stroke-width="26" active            activeColor="green" border-radius = "10" class="process"> {{value.HumdValue}}%
+        </progress>
+    </view>
+    
+ 
+    <view   class="led-container">
+        <image  src="{{Control_Value[0].Control_logo}}"     bindtap="Guangai_Control"   class="led-logo">
+        </image>
+    </view>
+    <text   class="bottom-text">{{Control_Value[0].Control_Text}}</text>
+
+    <text class="jieshao-texte" >@caisiyu 2020-03-03</text>
+</view>
+
+
+
